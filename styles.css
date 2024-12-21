@@ -127,7 +127,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-.section1 h2 {
+.section1 h2, .section3 h2 {
     font-size: 35px;
     color: #4294ca;
     padding: 0;
@@ -214,4 +214,32 @@ body{
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+}
+
+/* section 3 */
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 12%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.section3 .partners-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding-top: 5%;
+}
+
+.logos-top, .logos-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
