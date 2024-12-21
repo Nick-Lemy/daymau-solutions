@@ -13,7 +13,7 @@ body{
 /* Header Styles */
 .banner {
     display: flex;
-    background-color: #8D191B;
+    background-color: #8B9296;
     justify-content: space-between;
     color: white;
     height: 40px;
@@ -78,18 +78,21 @@ body{
     color: black;
 }
 .item:hover {
-    color: #8D191B;
+    color: #8B9296;
 }
 .active {
-    color: #8D191B;
+    color: #8B9296;
 }
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    background-color: #8D191B;
+    background-color: #659ABD;
     color: white;
     font-size: 30px;
+    padding-inline: 12%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
