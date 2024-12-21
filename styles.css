@@ -16,7 +16,9 @@ body{
     background-color: #8D191B;
     justify-content: space-between;
     color: white;
-    padding: 1px;
+    height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .banner-container {
@@ -25,6 +27,8 @@ body{
     gap: 10px;
     align-items: center;
     padding-inline: 20%;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .banner-container div {
@@ -78,4 +82,14 @@ body{
 }
 .active {
     color: #8D191B;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8D191B;
+    color: white;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
