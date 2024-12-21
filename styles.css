@@ -96,3 +96,46 @@ body{
     padding-bottom: 2%;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
+
+.hero-btn{
+    background-color: grey;
+    color: white;
+    padding: 2% 2%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    background-color: rgb(95, 95, 95);
+}
+
+/* Main Styles */
+
+/* section 1 */
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 12%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.section1 h2 {
+    font-size: 35px;
+    color: #4294ca;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.section1 p {
+    font-size: 20px;
+    color: #8B9296;
+    text-align: center;
+}
