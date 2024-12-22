@@ -322,11 +322,19 @@ form {
 /* Footer Styles */
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     background-color: #8B9296;
     color: white;
     padding-inline: 12%;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+footer .info {
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    width: 500px;
 }
