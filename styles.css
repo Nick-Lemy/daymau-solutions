@@ -13,7 +13,7 @@ body{
 /* Header Styles */
 .banner {
     display: flex;
-    background-color: #8B9296;
+    background-color: #16679E;
     justify-content: space-between;
     color: white;
     height: 40px;
@@ -34,11 +34,6 @@ body{
 .banner-container div {
     display: flex;
     flex-direction: row;
-}
-
-.banner-container div img {
-    width: 10px;
-    height: 10px;
 }
 
 .banner-container div p {
@@ -90,7 +85,7 @@ body{
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: rgb(49, 49, 49);
+    background-color: #636363;
     color: white;
     font-size: 30px;
     padding-inline: 12%;
@@ -146,7 +141,7 @@ body{
 .section2 {
     display: flex;
     flex-direction: row;
-    background-color: #4294ca;
+    background-color: #16679E;
     justify-content: center;
     align-items: center;
     padding-inline: 12%;
@@ -317,4 +312,21 @@ form {
     justify-content: center;
     align-items:first baseline;
     gap: 10px;
+}
+
+.icon {
+    padding-top: 12px;
+    width: 20px;
+    height: 20px;
+}
+/* Footer Styles */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #8B9296;
+    color: white;
+    padding-inline: 12%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
