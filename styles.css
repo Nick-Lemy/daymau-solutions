@@ -399,12 +399,6 @@ footer .info h3 {
       padding-inline: 5%;
       flex-direction: column;
       gap: 5px;
-      height: auto;
-    }
-  
-    .banner {
-      height: auto;
-      padding: 10px 0;
     }
   
     /* Navigation */
