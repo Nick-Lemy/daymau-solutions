@@ -395,9 +395,11 @@ footer .info h3 {
 /* Mobile Styles (up to 768px) */
 @media screen and (max-width: 768px) {
     /* Banner */
+    .team-img{
+        display: none;
+    }
     .banner-container {
       padding-inline: 5%;
-      flex-direction: column;
       gap: 5px;
     }
   
