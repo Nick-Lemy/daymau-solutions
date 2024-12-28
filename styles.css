@@ -391,3 +391,177 @@ footer .info h3 {
     flex-direction: row;
     gap: 10px;
 }
+
+/* Mobile Styles (up to 768px) */
+@media screen and (max-width: 768px) {
+    /* Banner */
+    .banner-container {
+      padding-inline: 5%;
+      flex-direction: column;
+      gap: 5px;
+      height: auto;
+    }
+  
+    .banner {
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    /* Navigation */
+    .nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .nav-bar ul {
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px 0;
+    }
+  
+    .logo {
+      height: 80px;
+      padding: 10px 5%;
+    }
+  
+    /* Hero Section */
+    .hero {
+      padding: 5%;
+      text-align: center;
+      font-size: 24px;
+    }
+  
+    /* Section 1 */
+    .section1 {
+      padding: 5%;
+      text-align: center;
+    }
+  
+    .section1 h2 {
+      font-size: 28px;
+    }
+  
+    .section1 p {
+      font-size: 16px;
+    }
+  
+    /* Section 2 */
+    .section2 {
+      padding: 5%;
+    }
+  
+    .top, .bottom {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .section2 .container .card {
+      max-width: 100%;
+    }
+  
+    /* Section 3 */
+    .section3 {
+      padding: 5%;
+    }
+  
+    .logos-top, .logos-bottom {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    /* Section 4 */
+    .section4 {
+      flex-direction: column;
+    }
+  
+    .section4 .contact-form {
+      padding: 5%;
+      width: 90%;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    /* Footer */
+    footer {
+      padding: 5%;
+    }
+  
+    footer .info {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .logo img {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .subscribe input {
+      width: 100%;
+    }
+  
+    .form-group-footer {
+      flex-direction: column;
+    }
+  }
+  
+  /* Tablet Styles (769px to 1024px) */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Banner */
+    .banner-container {
+      padding-inline: 10%;
+    }
+  
+    /* Navigation */
+    .nav {
+      padding-inline: 5%;
+    }
+  
+    .nav-bar ul {
+      gap: 20px;
+    }
+  
+    /* Sections */
+    .section1,
+    .section2,
+    .section3 {
+      padding-inline: 5%;
+    }
+  
+    /* Cards */
+    .top, .bottom {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .section2 .container .card {
+      max-width: 45%;
+    }
+  
+    /* Contact Form */
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+    }
+  
+    /* Footer */
+    footer {
+      padding-inline: 5%;
+    }
+  
+    .logo img {
+      width: 300px;
+    }
+  }
+  
+  /* Large Screen Adjustments (above 1024px) */
+  @media screen and (min-width: 1025px) {
+    .section2 .container .card {
+      max-width: 30%;
+    }
+  }
